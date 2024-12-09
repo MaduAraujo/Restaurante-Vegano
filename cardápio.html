@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/scrollreveal"></script>  <!--link to scroll reveal-->
+    <link rel="stylesheet" href="./stylecardapio.css">
+    <script src="./scriptcardapio.js"></script>
+    <title>Cardápio</title>
+</head>
+
+<body>
+<main>
+<header>
+
+<!-- Button: food delivery-->
+<img class="button-delivery" src="./img/img/button01.png" alt="um entregador em uma motocicleta verde.">
+
+<!-- Section: Menu-->
+
+<div class="container01">
+<h1 id="title">Cardápio</h1>
+<p id="description"> Aqui você encontrará uma deliciosa seleção de pratos orgânicos veganos em um só lugar. </p>
+</div>
+
+
+<!-- Section: Menu with Photos-->
+<section class="menu-photos">
+
+<!--Healthy Starters-->
+<div>
+    <img class="img-menu" src="img\starter-01.jpg" alt="Omelete de grão de bico">
+    <p class="food-description">Omelete de grão de bico</p>
+</div>
+
+<div>
+    <img class="img-menu" src="img\starter-02.jpg" alt="salada colorida com folhas verdes e legumes">
+    <p class="food-description">Salada com folhas verdes e legumes</p>
+</div>
+
+<div>
+    <img class="img-menu" src="img\starter-03.jpg" alt="sopa de abóbora">
+    <p class="food-description">Sopa de Abóbora</p>
+</div>
+
+<div>
+    <img class="img-menu" src="img\starter-04.jpg" alt="salada de abacate e rúcula">
+    <p class="food-description">Salada de abacate e rúcula</p>
+</div>
+
+<!--Hearty Meals-->
+<div>
+    <img class="img-menu" src="img\meal-01.jpg" alt="pizza de queijo vegana">
+    <p class="food-description">pizza de queijo vegana</p>
+</div>
+
+<div>
+    <img class="img-menu" src="img\meal-02.jpg" alt="macarrão com molho pesto vegano">
+    <p class="food-description">macarrão com molho pesto vegano</p>
+</div>
+
+<div>
+    <img class="img-menu" src="img\meal-03.jpg" alt="tacos mexicanos veganos">
+    <p class="food-description">tacos mexicanos veganos</p>
+</div>
+
+<div>
+    <img class="img-menu" src="img\meal-04.jpg" alt="risoto cremoso de abóbora">
+    <p class="food-description">risoto cremoso de abóbora</p>
+</div>
+
+<!--Protein-packed House Burgers-->
+<div>
+    <img class="img-menu" src="img\burger-01.jpg" alt="hambúrguer de frango com soja">
+    <p class="food-description">hambúrguer de frango com soja</p>
+</div>
+
+<div>
+    <img class="img-menu" src="img\burger-02.jpg" alt="hambúrguer de lentilha">
+    <p class="food-description">hambúrguer de lentilha</p>
+</div>
+
+<div>
+    <img class="img-menu" src="img\burger-03.PNG" alt="hambúrguer de beterraba e cogumelos">
+    <p class="food-description">hambúrguer de beterraba e cogumelos</p>
+</div>
+
+<div>
+    <img class="img-menu" src="img\burger-04.jpg" alt="hambúrguer de berinjela">
+    <p class="food-description">hambúrguer de berinjela</p>
+</div>
+
+<!--Dairy-free Desserts-->
+<div>
+    <img class="img-menu" src="img\dessert-01.jpg" alt="tigela de sorvete">
+    <p class="food-description">sorvete sem leite</p>
+</div>
+
+<div>
+    <img class="img-menu" src="img\dessert-02.jpg" alt="panquecas de banana">
+    <p class="food-description">panquecas de banana</p>
+</div>
+
+<div>
+    <img class="img-menu" src="img\dessert-03.jpg" alt="tortas de limão">
+    <p class="food-description">torta de limão</p>
+</div>
+
+<div>
+    <img class="img-menu" src="img\dessert-04.jpg" alt="bolo de chocolate">
+    <p class="food-description">bolo de chocolate</p>
+</div>
+
+<!--Delicious Beverages-->
+<div>
+    <img class="img-menu" src="img\drink-01.jpg" alt="smoothie de beterraba e frutas vermelhas">
+    <p class="food-description">smoothie de beterraba e frutas vermelhas</p>
+</div>
+
+<div>
+    <img class="img-menu" src="img\drink-02.jpg" alt="smoothie de vegetais verdes">
+    <p class="food-description">smoothie de vegetais verdes</p>
+</div>
+
+<div>
+    <img class="img-menu" src="img\drink-03.jpg" alt="smoothie de framboesa">
+    <p class="food-description">smoothie de framboesa</p>
+</div>
+
+<div>
+    <img class="img-menu" src="img\drink-04.jpg" alt="leite com chocolate de amêndoa">
+    <p class="food-description">leite com chocolate de amêndoa</p>
+</div>
+</section>
+
+<!-- Section: Form -->
+<!-- Container for the menu -->
+    
+<section class="form-section">
+<div class="container-form01">
+
+<p class="intro01">Selecione todos os pratos e bebidas veganas que você deseja!</p>
+
+<form id="survey-form" action="https://formsubmit.co/ca7df4b1526668343dbb48f9049dc819" method="POST">
+    <input type="hidden" name="_template" value="table">
+
+<div>
+    <label for="dropdown01" id="dropdown-menu01">Entradas</label>
+    <select class="dropdown-menu01" name="Entradas">
+        <option value="#" name="#"></option>
+        <option value="Omelete de grão de bico" name="Omelete de grão de bico"> $15 - Omelete de grão de bico </option>
+        <option value="Salada Colorida" name="Salada Colorida"> $11 - Salada Colorida </option>
+        <option value="Sopa de Abóbora" name="Sopa de Abóbora"> $14 - Sopa de Abóbora </option>
+        <option value="Salada de Abacate e Rúcula" name="Salada de Abacate e Rúcula"> $14 - Salada de Abacate e Rúcula </option>
+    </select>
+</div>
+
+<div>
+    <label for="dropdown02" id="dropdown-menu02">Refeições</label>
+    <select class="dropdown-menu02" name="Refeições">
+        <option value="#"></option>
+        <option value="Pizza de Queijo Vegano" name="Pizza de Queijo Vegano"> $35 - Pizza de Queijo Vegano </option>
+        <option value="Macarrão com Molho Pesto Vegano" name="Macarrão com Molho Pesto Vegano"> $25 - Macarrão com Molho Pesto Vegano </option>
+        <option value="Tacos Mexicanos Veganos" name="Tacos Mexicanos Veganos"> $20 - Tacos Mexicanos Veganos </option>
+        <option value="Risoto de abóbora" name="Risoto de abóbora"> $18 - Risoto de abóbora </option>
+    </select>
+</div>
+
+<div>
+    <label for="dropdown03" id="dropdown-menu03">Hambúrgueres</label>
+    <select class="dropdown-menu03" name="Hambúrgueres">
+        <option value="#"></option>
+        <option value="Hambúrguer de Frango com Soja" name="Hambúrguer de Frango com Soja"> $28 - Hambúrguer de Frango com Soja </option>
+        <option value="Hambúrguer de Lentilha" name="Hambúrguer de Lentilha"> $25 - Hambúrguer de Lentilha </option>
+        <option value="Hambúrguer de Beterraba e Cogumelos" name="Hambúrguer de Beterraba e Cogumelos"> $24 - Hambúrguer de Beterraba e Cogumelos </option>
+        <option value="Hambúrguer de berinjela" name="Hambúrguer de berinjela"> $22 - Hambúrguer de berinjela </option>
+    </select>
+</div>
+
+<div>
+    <label for="dropdown04" id="dropdown-menu04">Sobremesas</label>
+    <select class="dropdown-menu04" name="Sobremesas">
+        <option value="#"></option>
+        <option value="Sorvete sem leite" name="Sorvete sem leite"> $10 - Sorvete sem leite </option>
+        <option value="Panquecas De Banana" name="Panquecas De Banana"> $9 - Panquecas De Banana </option>
+        <option value="Torta de Limão" name="Torta de Limão"> $11 - Torta de Limão </option>
+        <option value="Bolo De Chocolate" name="Bolo De Chocolate"> $10 - Bolo De Chocolate </option>
+    </select>
+</div>
+
+<div>
+    <label for="dropdown05" id="dropdown-menu05">Bebidas</label>
+    <select class="dropdown-menu05" name="Bebidas">
+        <option value="#"></option>
+        <option value="Smoothie de beterraba e frutas vermelhas" value="Smoothie de beterraba e frutas vermelhas"> $6 - Smoothie de beterraba e frutas vermelhas </option>
+        <option value="Smoothie Verde" name="Smoothie Verde"> $6 - Smoothie Verde </option>
+        <option value="Smoothie de Framboesa" name="Smoothie de Framboesa"> $6 - Smoothie de Framboesa </option>
+        <option value="Leite com Chocolate de Amêndoa" name="Leite com Chocolate de Amêndoa"> $7 - Leite com Chocolate de Amêndoa </option>
+    </select>
+</div>
+
+<br>
+<label for="extras">Adicione alguns extras</label>
+
+<div><label for="extras-01"><input id="extras-01" type="checkbox" value="Vegetariano Extra" name="extras-01"> $4 - Vegetariano Extra </input></label></div>
+<div><label for="extras-02"><input id="extras-02" type="checkbox" value="Queijo extra de caju" name="extras-02"> $5 - Queijo extra de caju </input></label></div>
+<div><label for="extras-03"><input id="extras-03" type="checkbox" value="Batata Fritas" name="extras-03"> $12 - Batata Frita </input></label></div>
+<div><label for="extras-04"><input id="extras-04" type="checkbox" value="Batata Doce Frita" name="extras-04"> $13 - Batata Doce Frita </input></label></div>
+<div><label for="extras-05"><input id="extras-05" type="checkbox" value="Anéis de Cebola" name="extras-05"> $11 - Anéis de Cebola </input></label></div>
+
+<div><button id="submit" type="submit">Continue no próximo formulário com suas informações pessoais</button></div>
+
+</div>
+
+<!-- Container for the personal info -->
+<div class="container-form02">
+<p class="intro02">Preencha com seus dados pessoais para finalizar seu pedido</p>
+
+<div>
+    <label for="name" id="name-label">Nome Completo</label>
+    <input id="name" type="text" name="name" placeholder="enter full name" required></input>
+</div>
+    
+<div>
+    <label for="tel" id="tel-label">Telefone</label>
+    <input id="tel" type="tel" name="tel" placeholder="enter valid phone number" required></input>
+</div>
+    
+<div>
+    <label for="email" id="email-label">E-mail</label>
+    <input id="email" type="email" name="email" placeholder="enter valid e-mail address" required></input>
+</div>
+    
+<div>
+    <label for="address" id="address-label">Endereço</label>
+    <input id="address" type="text" name="address" placeholder="enter home address" required></input>
+</div>
+
+<div>
+    <label for="zip-code" id="zip-code-label">CEP</label>
+    <input id="zip-code" type="text" name="zip-code" placeholder="zip code- no hyphen" minlength="8" maxlength="8" required></input>
+</div>
+
+<div>
+    <label for="city" id="city-label">Cidade</label>
+    <input id="city" type="text" name="city" placeholder="enter your city" required></input>
+</div>
+
+<div>
+    <label for="state" id="state-label">País - Brazil / Estado</label>
+    <select id="dropdown" name="state" required>
+        <option value="AC">Acre</option>
+        <option value="AL">Alagoas</option>
+        <option value="AP">Amapá</option>
+        <option value="AM">Amazonas</option>
+        <option value="BA">Bahia</option>
+        <option value="CE">Ceará</option>
+        <option value="DF">Distrito Federal</option>
+        <option value="ES">Espírito Santo</option>
+        <option value="GO">Goiás</option>
+        <option value="MA">Maranhão</option>
+        <option value="MT">Mato Grosso</option>
+        <option value="MS">Mato Grosso do Sul</option>
+        <option value="MG">Minas Gerais</option>
+        <option value="PA">Pará</option>
+        <option value="PB">Paraíba</option>
+        <option value="PR">Paraná</option>
+        <option value="PE">Pernambuco</option>
+        <option value="PI">Piauí</option>
+        <option value="RJ">Rio de Janeiro</option>
+        <option value="RN">Rio Grande do Norte</option>
+        <option value="RS">Rio Grande do Sul</option>
+        <option value="RO">Rondônia</option>
+        <option value="RR">Roraima</option>
+        <option value="SC">Santa Catarina</option>
+        <option value="SP">São Paulo</option>
+        <option value="SE">Sergipe</option>
+        <option value="TO">Tocantins</option>
+    </select>
+</div>
+
+<div>
+    <label for="number" id="number-label">Quanto tempo você esperaria pela sua entrega?</label>
+    <input id="number" type="number" name="acceptable-waiting-minutes" placeholder="min." min="15" max="50" required></input>
+</div>
+
+<div>
+    <label for="message" id="message-label">Você tem alguma alergia alimentar?</label>     
+    <textarea id="message" class="form-control" name="food-allergies" rows="1" placeholder="enter 'yes' or 'no'" required></textarea>
+</div>
+
+<label for="payment-method" id="payment-method"> Por favor, informe sua forma de pagamento.</label>
+
+<div>
+    <label for="payment-method-01"><input id="payment-method-01" type="radio" value="Crédito" name="payment-method" checked> Crédito </input></label>
+    <label for="payment-method-02"><input id="payment-method-02" type="radio" value="Debito" name="payment-method"> Débito </input></label>
+    <label for="payment-method-03"><input id="payment-method-03" type="radio" value="Dinheiro" name="payment-method"> Dinheiro </input></label>
+</div>
+
+<div>
+    <label for="change"><input id="change" type="checkbox" value="no-change-needed" name="change"> Mudança necessária </input></label>
+    <label for="no-change"><input id="no-change" type="checkbox" value="no-change-needed" name="no-change"> Nenhuma mudança </input></label>
+</div>
+
+<div><button id="submit" type="submit">Concluir pedido</button></div>
+
+</form>
+</div>
+</section>
+</main>
+
+<!-- Footer -->
+<footer>
+    <div class="container-footer">
+        <div><p class="box-footer1">&copy; EBAC Veggie 2024</p></div>
+    </div>
+</footer>
+
+
+<!--Link to JavaScript-->
+<script src="./scriptcardapio.js"></script>
+
+</body>
+</html>
+
