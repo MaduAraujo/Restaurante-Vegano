@@ -88,4 +88,12 @@ blockquote:before {
     vertical-align: -0.4em; 
 }
 
-blockquote p { display: inline; }
+blockquote p {
+    display: inline; 
+}
+
+a{
+    text-decoration: none;
+    color: #f9f9f9;
+}
+
